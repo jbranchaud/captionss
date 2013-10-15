@@ -1,0 +1,14 @@
+{
+  "name": "CaptionSS",
+  "version": "0.0.0",
+  "description": "Pure-CSS Image Caption Library",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "jbranchaud <jbranchaud@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "c4e0b06248ff5108f42f20f03f39e53f5433f643"
+}
