@@ -1,3 +1,3 @@
 # CaptionSS
 
-Adding captions to images with pure CSS.
+Pure-CSS Image Caption Library
