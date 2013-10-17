@@ -3,22 +3,30 @@
  * a pure-CSS image caption library
  */
 
+/*** Base Caption Styles ***/
 figure {
 	display: inline-block;
+	position: relative;
 	margin: 0em;
+	color: rgba(50,50,50,1.0);
+	background: white;
 }
-figure > img {
+figure img {
 	width: 100%;
 }
+figure figcaption {
+	width: initial;
+	padding: 0.2em;
+}
 
-/* Various Caption Styles */
+/*** Various Caption Styles ***/
 
 /* smaller text, underlined in gray */
 figure.cap-simple {
 	font-size: smaller;
 }
 figure.cap-simple > figcaption {
-	border-bottom: 1px solid rgba(100,100,100,1.0);
+	border-bottom: 1px solid rgba(50,50,50,1.0);
 }
 
 /* have a set of styles with base coloring (light gray background and
