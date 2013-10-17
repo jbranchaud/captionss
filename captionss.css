@@ -12,9 +12,16 @@ figure > img {
 }
 
 /* Various Caption Styles */
-figure.cap-light {
+
+/* smaller text, underlined in gray */
+figure.cap-simple {
 	font-size: smaller;
 }
-figure.cap-light > figcaption {
+figure.cap-simple > figcaption {
 	border-bottom: 1px solid rgba(100,100,100,1.0);
 }
+
+/* have a set of styles with base coloring (light gray background and
+ * black text and then a set of inverted styles with dark gray background
+ * and white text).
+ */
