@@ -22,6 +22,7 @@ figure figcaption {
 
 /*** Various Caption Styles ***/
 
+/* use the crunched, compacted style */
 figure.cap-crunched {
 	font-size: smaller;
 }
@@ -29,7 +30,7 @@ figure.cap-crunched figcaption{
 	padding: 0.2em;
 }
 
-/* smaller text, underlined in gray */
+/* underlined in gray */
 figure.cap-simple {
 	
 }
@@ -41,6 +42,8 @@ figure.cap-simple figcaption {
  * black text and then a set of inverted styles with dark gray background
  * and white text).
  */
+
+/* background in light gray, bordered in medium gray */
 figure.cap-outer-bottom {
 	
 }
