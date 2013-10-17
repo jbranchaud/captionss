@@ -15,7 +15,7 @@ figure img {
 	width: 100%;
 }
 figure figcaption {
-	width: initial;
+	width: auto;
 	padding: 0.2em;
 }
 
