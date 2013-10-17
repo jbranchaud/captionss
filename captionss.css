@@ -1,0 +1,20 @@
+/* 
+ * CaptionSS
+ * a pure-CSS image caption library
+ */
+
+figure {
+	display: inline-block;
+	margin: 0em;
+}
+figure > img {
+	width: 100%;
+}
+
+/* Various Caption Styles */
+figure.cap-light {
+	font-size: smaller;
+}
+figure.cap-light > figcaption {
+	border-bottom: 1px solid rgba(100,100,100,1.0);
+}
