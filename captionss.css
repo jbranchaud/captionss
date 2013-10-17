@@ -9,6 +9,7 @@ figure {
 	position: relative;
 	margin: 0em;
 	color: rgba(50,50,50,1.0);
+	font-size: 100%;
 	background: white;
 }
 figure img {
