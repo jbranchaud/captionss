@@ -64,6 +64,14 @@ figure.cap-inner-bottom figcaption {
 	background: rgba(200,200,200,0.7);
 }
 
+/* hide the caption when hovering on the image */
+figure.hover-hide figcaption {
+	display: inline;
+}
+figure.hover-hide:hover figcaption {
+	display: none;
+}
+
 /* use the dark theme */
 figure.cap-dark {
 	color: rgba(230,230,230,1.0);
