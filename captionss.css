@@ -72,6 +72,14 @@ figure.hover-hide:hover figcaption {
 	display: none;
 }
 
+/* show the caption when hovering on the image */
+figure.hover-show figcaption {
+	display: none;
+}
+figure.hover-show:hover figcaption {
+	display: inline;
+}
+
 /* use the dark theme */
 figure.cap-dark {
 	color: rgba(230,230,230,1.0);
