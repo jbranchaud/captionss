@@ -57,14 +57,13 @@ figure.embed-top figcaption {
 	background: rgba(200,200,200,0.7);
 }
 
-
 /*** Overlay ***/
 
 
 
 /*** Themes ***/
 /* neutral theme: gray with black text */
-figure.neutral figcaption {
+figure figcaption {
 	color: rgba(50,50,50,1.0);
 	background: rgba(200,200,200,0.7);
 }
@@ -77,6 +76,22 @@ figure.light figcaption {
 figure.dark figcaption {
 	color: rgba(245,245,245,1.0);
 	background: rgba(50,50,50,0.7);
+}
+
+/*** Font Sizes ***/
+/* normal (small) */
+figure {
+	font-size: 0.8em;
+}
+/* medium */
+figure.medium {
+	font-size: 1.0em;
+}
+figure.large {
+	font-size: 1.2em;
+}
+figure.xlarge {
+	font-size: 1.5em;
 }
 
 /*** Various Caption Styles ***/
