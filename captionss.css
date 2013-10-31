@@ -27,6 +27,31 @@ figure figcaption {
 	padding: 0.5em;
 }
 
+/*** Embed ***/
+/* Positioning: bottom (default) */
+/* Effects: static (default) */
+/* Font-size: normal (default) */
+/* Theme: neutral (default) */
+
+figure.embed {
+	/* do nothing here */
+}
+figure.embed figcaption {
+	/* positioning: bottom */
+	position: absolute;
+	bottom: 0px;
+	/* theme: neutral */
+	background: rgba(200,200,200,0.7);
+}
+
+/*** Embed-Top ***/
+
+
+
+/*** Overlay ***/
+
+
+
 /*** Various Caption Styles ***/
 
 /* use the crunched, compacted style */
