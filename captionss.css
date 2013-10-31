@@ -130,6 +130,13 @@ figure.hide-smooth:hover figcaption {
 	-o-transition: opacity .5s;
 	transition: opacity .5s;
 }
+/* reveal */
+figure.reveal figcaption {
+	opacity: 0;
+}
+figure.reveal:hover figcaption {
+	opacity: 1;
+}
 
 /*** Various Caption Styles ***/
 
