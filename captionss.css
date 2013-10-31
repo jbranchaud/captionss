@@ -17,6 +17,7 @@ figure {
 	color: rgba(50,50,50,1.0);
 	font-size: 0.8em;
 	background: white;
+	overflow: hidden;
 }
 figure img {
 	width: 100%;
@@ -155,65 +156,4 @@ figure.reveal-smooth:hover figcaption {
 	-moz-transition: opacity .5s;
 	-o-transition: opacity .5s;
 	transition: opacity .5s;
-}
-
-/*** Various Caption Styles ***/
-
-/* use the crunched, compacted style */
-figure.cap-crunched {
-	font-size: smaller;
-}
-figure.cap-crunched figcaption{
-	padding: 0.2em;
-}
-
-/* underlined in gray */
-figure.cap-simple {
-	
-}
-figure.cap-simple figcaption {
-	border-bottom: 1px solid rgba(50,50,50,1.0);
-}
-
-/* background in light gray, bordered in medium gray */
-figure.cap-outer-bottom {
-	
-}
-figure.cap-outer-bottom figcaption {
-	background: rgba(200,200,200,1.0);
-	border: 1px solid rgba(150,150,150,1.0);
-}
-
-/* background in light gray, no border */
-figure.cap-inner-bottom {
-	
-}
-figure.cap-inner-bottom figcaption {
-	position: absolute;
-	bottom: 0px;
-	background: rgba(200,200,200,0.7);
-}
-
-/* hide the caption when hovering on the image */
-figure.hover-hide figcaption {
-	display: inline;
-}
-figure.hover-hide:hover figcaption {
-	display: none;
-}
-
-/* show the caption when hovering on the image */
-figure.hover-show figcaption {
-	display: none;
-}
-figure.hover-show:hover figcaption {
-	display: inline;
-}
-
-/* use the dark theme */
-figure.cap-dark {
-	color: rgba(230,230,230,1.0);
-}
-figure.cap-dark figcaption {
-	background: rgba(50,50,50,1.0);
 }
