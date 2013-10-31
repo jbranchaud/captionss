@@ -59,7 +59,24 @@ figure.embed-top figcaption {
 
 /*** Overlay ***/
 
+figure.overlay {
 
+}
+figure.overlay figcaption {
+	/* positioning: over */
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	/* theme: neutral */
+	background: rgba(200,200,200,0.7);
+	/* effect: hide by default */
+	display: none;
+}
+figure.overlay:hover figcaption {
+	/* effect: show */
+	display: inline;
+}
 
 /*** Themes ***/
 /* neutral theme: gray with black text */
