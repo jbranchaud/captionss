@@ -114,10 +114,21 @@ figure.xlarge {
 /*** Effects and Animations ***/
 /* hide */
 figure.hide figcaption {
-	display: inline;
+	opacity: 1;
 }
 figure.hide:hover figcaption {
-	display: none;
+	opacity: 0;
+}
+/* hide-smooth */
+figure.hide-smooth figcaption {
+	display: 1;
+}
+figure.hide-smooth:hover figcaption {
+	opacity: 0;
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
 }
 
 /*** Various Caption Styles ***/
