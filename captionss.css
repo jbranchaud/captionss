@@ -72,11 +72,11 @@ figure.overlay figcaption {
 	/* theme: neutral */
 	background: rgba(200,200,200,0.7);
 	/* effect: hide by default */
-	display: none;
+	opacity: 0;
 }
 figure.overlay:hover figcaption {
 	/* effect: show */
-	display: inline;
+	opacity: 1;
 }
 
 /*** Themes ***/
