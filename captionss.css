@@ -62,6 +62,23 @@ figure.embed-top figcaption {
 
 
 
+/*** Themes ***/
+/* neutral theme: gray with black text */
+figure.neutral figcaption {
+	color: rgba(50,50,50,1.0);
+	background: rgba(200,200,200,0.7);
+}
+/* light theme: white with gray text */
+figure.light figcaption {
+	color: rgba(80,80,80,1.0);
+	background: rgba(245,245,245,0.7);
+}
+/* dark theme: black with white text */
+figure.dark figcaption {
+	color: rgba(245,245,245,1.0);
+	background: rgba(50,50,50,0.7);
+}
+
 /*** Various Caption Styles ***/
 
 /* use the crunched, compacted style */
