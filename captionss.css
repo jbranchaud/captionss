@@ -122,6 +122,10 @@ figure.hide:hover figcaption {
 /* hide-smooth */
 figure.hide-smooth figcaption {
 	display: 1;
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
 }
 figure.hide-smooth:hover figcaption {
 	opacity: 0;
@@ -136,6 +140,21 @@ figure.reveal figcaption {
 }
 figure.reveal:hover figcaption {
 	opacity: 1;
+}
+/* reveal-smooth */
+figure.reveal-smooth figcaption {
+	opacity: 0;
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
+}
+figure.reveal-smooth:hover figcaption {
+	opacity: 1;
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
 }
 
 /*** Various Caption Styles ***/
