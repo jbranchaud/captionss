@@ -111,6 +111,15 @@ figure.xlarge {
 	font-size: 1.5em;
 }
 
+/*** Effects and Animations ***/
+/* hide */
+figure.hide figcaption {
+	display: inline;
+}
+figure.hide:hover figcaption {
+	display: none;
+}
+
 /*** Various Caption Styles ***/
 
 /* use the crunched, compacted style */
