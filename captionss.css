@@ -4,11 +4,6 @@
  */
 
 /*** Base Caption Styles ***/
-figure * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 figure {
 	display: inline-block;
 	vertical-align: top;
@@ -26,6 +21,14 @@ figure img {
 figure figcaption {
 	width: 100%;
 	padding: 0.5em;
+}
+
+figure.embed *,
+figure.embed-top *,
+figure.overlay * {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*** Embed ***/
