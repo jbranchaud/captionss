@@ -10,6 +10,34 @@
 		<!-- Styling -->
 		<link href="captionss.css" rel="stylesheet" type="text/css">
 		<style type="text/css">
+			* {
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			#container {
+				width: 840px;
+				margin: 0 auto;
+				padding: 0;
+				position: relative;
+			}
+			#content {
+				position: absolute;
+				top: 50px;
+			}
+			header {
+				display: block;
+				width: 100%;
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				z-index: 1;
+				background: rgba(200,200,200,0.7);
+			}
+			#headerContent {
+				width: 840px;
+				margin: 0 auto;
+			}
 			div.example {
 				padding: 1.0em;
 				border-bottom: 1px solid rgba(200,200,200,1.0);
@@ -28,9 +56,19 @@
 
 	<body>
 
+		<div id="container">
+
 		<div id="content">
 
-			<h1>CaptionSS Refactoring</h1>
+			<header>
+
+				<div id="headerContent">
+
+					<h1>CaptionSS Examples</h1>
+
+				</div>
+
+			</header>
 
 			<div id="refactor01" class="example">
 
@@ -244,161 +282,7 @@
 
 			</div>
 
-			<h1>Old Styling and Selectors</h1>
-
-			<div id="example01" class="example">
-
-				<p>
-					Below is an image with a simple, unstyled caption.
-				</p>
-
-				<figure class="img1">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 cap-crunched">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="example02" class="example">
-
-				<p>
-					Below is an image with a simple, lightly styled caption.
-				</p>
-
-				<figure class="img1 cap-simple">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 cap-simple cap-crunched">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="example03" class="example">
-
-				<p>
-					Below is an image with a light background caption outside the image at the bottom.
-				</p>
-
-				<figure class="img1 cap-outer-bottom">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 cap-outer-bottom cap-crunched">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="example04" class="example">
-
-				<p>
-					Below is an image with the dark background caption outside the image at the bottom.
-				</p>
-
-				<figure class="img1 cap-outer-bottom cap-dark">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 cap-outer-bottom cap-dark cap-crunched">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="example05" class="example">
-
-				<p>
-					Below is an image with the light background caption inside the image at the bottom.
-				</p>
-
-				<figure class="img1 cap-inner-bottom">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 cap-inner-bottom cap-crunched">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="example06" class="example">
-
-				<p>
-					Below is an image with the light background caption inside the image at the bottom, hover over the image to hide the caption.
-				</p>
-
-				<figure class="img1 cap-inner-bottom hover-hide">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 cap-inner-bottom hover-hide cap-crunched">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="example07" class="example">
-
-				<p>
-					Below is an image, hover over the image to show the light background caption inside the image at the bottom.
-				</p>
-
-				<figure class="img1 cap-inner-bottom hover-show">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 cap-inner-bottom hover-show cap-crunched">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
+		</div>
 
 		</div>
 
