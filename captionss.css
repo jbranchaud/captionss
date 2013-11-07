@@ -23,6 +23,7 @@ figure figcaption {
 	padding: 0.5em;
 }
 
+/* use border-box box-sizing for each type of caption */
 figure.embed *,
 figure.embed-top *,
 figure.overlay * {
