@@ -4,7 +4,9 @@
  */
 
 /*** Base Caption Styles ***/
-figure {
+figure.embed,
+figure.embed-top,
+figure.overlay {
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
@@ -14,11 +16,15 @@ figure {
 	background: white;
 	overflow: hidden;
 }
-figure img {
+figure.embed img,
+figure.embed-top img,
+figure.overlay img {
 	width: 100%;
 	display: block;
 }
-figure figcaption {
+figure.embed figcaption,
+figure.embed-top figcaption,
+figure.overlay figcaption {
 	width: 100%;
 	padding: 0.5em;
 }
