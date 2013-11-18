@@ -1,0 +1,18 @@
+{
+  "name": "CaptionSS",
+  "version": "0.0.0",
+  "authors": [
+    "jbranchaud <jbranchaud@gmail.com>"
+  ],
+  "description": "Pure-CSS Image Caption Library",
+  "main": "captionss.css",
+  "license": "MIT",
+  "homepage": "http://captionss.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
