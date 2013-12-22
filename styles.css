@@ -1,0 +1,56 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*
+#container {
+	width: 840px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+#content {
+	position: absolute;
+	top: 50px;
+}
+header {
+	display: block;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	background: rgba(200,200,200,0.7);
+}
+#headerContent {
+	width: 840px;
+	margin: 0 auto;
+}
+footer {
+	margin-top: 0.5em;
+	padding: 0.5em;
+	font-size: smaller;
+}
+div.example {
+	padding: 1.0em;
+	border-bottom: 1px solid rgba(200,200,200,1.0);
+}
+figure.img1 {
+	width: 400px;
+}
+figure.img2 {
+	width: 300px;
+}
+code {
+	color: rgba(200,200,200,1.0);
+}
+a {
+	text-decoration: none;
+	color: rgba(200,50,50,1.0);
+}
+a:hover {
+	color: rgba(170,20,20,1.0);
+	border-bottom: dotted 1px rgba(170,20,20,1.0);
+}
+*/
