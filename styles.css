@@ -3,6 +3,9 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+body {
+    font-family: 'Gilda Display', serif;
+}
 /*
 #container {
 	width: 840px;
