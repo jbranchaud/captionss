@@ -1,267 +1,73 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-	<head>
-		<!-- Metadata -->
-		<meta charset="utf-8">
+    <head>
+        <!-- Metadata -->
+        <meta charset="utf-8">
 
-		<title>CaptionSS Examples</title>
+        <title></title>
 
         <!-- Styling -->
         <link href="styles.css" rel="stylesheet" type="text/css">
-		<link href="captionss.min.css" rel="stylesheet" type="text/css">
-        
+        <link href="captionss.min.css" rel="stylesheet" type="text/css">
+
         <!-- Scripts -->
+        <!-- We don't need any, everything is done by the CSS -->
 
-	</head>
+    </head>
 
-	<body>
+    <body>
 
-		<div id="container">
+        <div id="container">
 
-		<div id="content">
+            <header></header>
 
-			<header>
+            <div id="intro">
 
-				<div id="headerContent">
+                <h1>captionss</h1>
+                <h2>elegant CSS image captions</h2>
 
-					<h1>CaptionSS Examples</h1>
+                <div id="intro-images">
 
-				</div>
+                    <figure class="img1 embed">
+                        <img src="img/CatByWall.jpg" alt="Cat By Wall">
+                        <figcaption>
+                            A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
+                        </figcaption>
+                    </figure>
 
-			</header>
+                    <figure class="embed hide-smooth">
+                        <img src="img/CatByWall.jpg" alt="Cat By Wall">
+                        <figcaption>
+                            A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
+                        </figcaption>
+                    </figure>
 
-			<div id="refactor01" class="example">
+                    <figure class="embed reveal-smooth">
+                        <img src="img/CatByWall.jpg" alt="Cat By Wall">
+                        <figcaption>
+                            A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
+                        </figcaption>
+                    </figure>
 
-				<p>
-					Default embedded image caption<br />
-					<code>embed (bottom) (static) (normal) (neutral)</code>
-				</p>
+                </div>
 
-				<figure class="img1 embed">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
+            </div>
 
-			</div>
+            <footer>
 
-			<div id="refactor02" class="example">
+                <p>
 
-				<p>
-					Default embedded image caption at top<br />
-					<code>embed-top (static) (normal) (neutral)</code>
-				</p>
+                    Built by <a href="http://joshbranchaud.com">Josh Branchaud</a>
+                    |
+                    Photos also by <a href="http://flickr.com/jbranchaud">Josh</a>
 
-				<figure class="img1 embed-top">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
+                </p>
 
-			</div>
+            </footer>
 
-			<div id="refactor03" class="example">
+        </div>
 
-				<p>
-					All three themes (neutral,light,dark) with embedded defaults.
-				</p>
-
-				<figure class="img1 embed">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 embed light">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 embed dark">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="refactor04" class="example">
-
-				<p>
-					All four font sizes (normal, medium, large, xlarge) with embedded defaults.
-				</p>
-
-				<figure class="img1 embed">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 embed medium">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 embed large">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 embed xlarge">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="refactor05" class="example">
-
-				<p>
-					Default overlay and overlay with smooth reveal<br />
-					<code>overlay (reveal/reveal-smooth) (normal) (neutral)</code>
-				</p>
-
-				<figure class="img1 overlay">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 overlay reveal-smooth">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="refactor06" class="example">
-
-				<p>
-					Bottom/Top embedded image caption that hides on hover<br />
-					<code>embed/embed-top (hide) (normal) (neutral)</code>
-				</p>
-
-				<figure class="img1 embed hide">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 embed-top hide">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="refactor07" class="example">
-
-				<p>
-					Bottom/Top embedded image caption that hides smoothly on hover
-					<br />
-					<code>embed/embed-top (hide-smooth) (normal) (neutral)</code>
-				</p>
-
-				<figure class="img1 embed hide-smooth">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 embed-top hide-smooth">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="refactor08" class="example">
-
-				<p>
-					Bottom/Top embedded image caption that reveals on hover
-					<br />
-					<code>embed/embed-top (reveal) (normal) (neutral)</code>
-				</p>
-
-				<figure class="img1 embed reveal">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 embed-top reveal">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<div id="refactor09" class="example">
-
-				<p>
-					Bottom/Top embedded image caption that reveals smoothly on hover
-					<br />
-					<code>embed/embed-top (reveal-smooth) (normal) (neutral)</code>
-				</p>
-
-				<figure class="img1 embed reveal-smooth">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-				<figure class="img1 embed-top reveal-smooth">
-					<img src="img/CatByWall.jpg" alt="Cat By Wall">
-					<figcaption>
-						A stray cat waiting on a sidewalk in Grand Bourg, Argentina.
-					</figcaption>
-				</figure>
-
-			</div>
-
-			<footer>
-
-				<p>
-
-					Built by <a href="http://joshbranchaud.com">Josh Branchaud</a>
-					|
-					Photos also by <a href="http://flickr.com/jbranchaud">Josh</a>
-
-				</p>
-
-			</footer>
-
-		</div>
-
-		</div>
-
-	</body>
+    </body>
 
 </html>
