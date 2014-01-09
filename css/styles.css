@@ -18,6 +18,8 @@ code {
     background: rgba(255,255,255,0.5);
     padding: 8px;
     border-radius: 5px;
+    display: block;
+    text-align: left;
 }
 
 /* intro section */
@@ -49,6 +51,11 @@ section h3 {
     padding: 3px;
     display: inline-block;
     border-bottom: solid 1px;
+}
+section div.section-content {
+    width: 720px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 /* setup section */

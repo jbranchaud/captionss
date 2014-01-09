@@ -31,6 +31,8 @@
 
                 <div id="intro-images">
 
+                    <div>
+
                     <figure class="embed">
                         <img src="img/Aloof.jpg" alt="Cat On Wall">
                         <figcaption>
@@ -38,6 +40,12 @@
                             passerby in Grand Bourg, Argentina.
                         </figcaption>
                     </figure>
+
+                    <p class="description">Simple, static caption</p>
+
+                    </div>
+
+                    <div>
 
                     <figure class="embed hide-smooth">
                         <img src="img/Slow.jpg" alt="Slow Street Sign">
@@ -47,6 +55,12 @@
                         </figcaption>
                     </figure>
 
+                    <p class="description">Hover to hide caption</p>
+
+                    </div>
+
+                    <div>
+
                     <figure class="embed reveal-smooth">
                         <img src="img/Yellow.jpg" alt="A yellow flower">
                         <figcaption>
@@ -55,15 +69,74 @@
                         </figcaption>
                     </figure>
 
+                    <p class="description">Hover to reveal caption</p>
+
+                    </div>
+
                 </div>
 
             </section>
 
             <section id="setup">
 
-            <p>bower install --save captionss<p>
+            <div class="section-content">
 
-            
+            <h2>Getting Started</h2>
+
+            <div>
+
+            <h3>Adding captionss to your project</h3>
+
+            <p>Add it with <a href="http://bower.io/">Bower</a>...</p>
+
+            <code>bower install --save captionss</code>
+
+            <p>... or grab the source directly from the <a href="http://github.com/jbranchaud/captionss">captionss GitHub repository</a>.</p>
+
+            </div>
+
+            <div>
+
+            <h3>Referencing captionss in your HTML file</h3>
+
+            <p>Add a link tag like the following referencing the location of
+            captionss.</p>
+
+            <code>&lt;link href="bower_components/captionss/captionss.min.css" rel="stylesheet" type="text/css"&gt;</code>
+
+            </div>
+
+            <div>
+
+            <h3>Adding a caption to an image</h3>
+
+            <p>Wrap the image in a figure tag and then add a figcaption tag
+            below it with the caption text.</p>
+
+            <pre><code>&lt;figure class="embed hide-smooth dark"&gt;
+    &lt;img src="img/Madres.jpg"
+        alt="The mothers marching at Plaza de Mayo"&gt;
+    &lt;figcaption&gt;
+        The caption text goes here...
+    &lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+
+            <h3>The resulting captioned image</h3>
+
+            <figure class="embed hide-smooth dark">
+                <img src="img/Madres.jpg" alt="The mothers marching at Plaza de Mayo">
+                <figcaption>
+                    Each Thursday these mothers and grandmothers march in
+                    Plaza de Mayo in Capital Federal of Buenos Aires,
+                    Argentina in
+                    remembrance of the thousands of sons and daughters
+                    disappeared between 1976 and 1983.
+                </figcaption>
+            </figure>
+
+            </div>
+
+            </div>
 
             </section>
 
@@ -87,7 +160,7 @@
 
                     Built by <a href="http://joshbranchaud.com">Josh Branchaud</a>
                     |
-                    Photos also by <a href="http://flickr.com/jbranchaud">Josh</a>
+                    Photos also by <a href="http://flickr.com/jbranchaud">Josh Branchaud</a>
 
                 </p>
 
