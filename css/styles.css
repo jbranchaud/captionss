@@ -40,6 +40,12 @@ section {
     background: #EEE;
 }
 
+section h3 {
+    padding: 3px;
+    display: inline-block;
+    border-bottom: solid 1px;
+}
+
 /* setup section */
 #setup {
     /*background: rgba(50,200,150,0.8);*/
