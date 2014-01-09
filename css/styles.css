@@ -32,19 +32,30 @@ section {
     height: 240px;
 }
 
+#intro-images > div {
+    display: inline-block;
+}
+#intro-images div p.description {
+    padding: 3px;
+    background: #EEE;
+}
+
 /* setup section */
 #setup {
-    background: rgba(50,200,150,0.8);
+    /*background: rgba(50,200,150,0.8);*/
+    background: #39CCCC;
 }
 
 /* usage section */
 #usage {
-    background: rgba(100,50,150,0.6);
+    /*background: rgba(100,50,150,0.6);*/
+    background: #7FDBFF;
 }
 
 /* other section */
 #other {
-    background: rgba(50,150,200,0.8);
+    /*background: rgba(50,150,200,0.8);*/
+    background: #0074D9;
 }
 /*
 #container {
