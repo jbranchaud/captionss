@@ -102,3 +102,17 @@ div.usage-example figure img {
     /*background: rgba(50,150,200,0.8);*/
     background: #0074D9;
 }
+
+/* feature table */
+table#features-table tr {
+}
+table#features-table tr td {
+    padding-right: 1.0em;
+}
+table.feature-table {
+    margin: 1.0em;
+}
+table.feature-table tr {
+}
+table.feature-table td {
+}
