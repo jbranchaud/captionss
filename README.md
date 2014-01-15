@@ -1,3 +1,3 @@
-# CaptionSS
+# captionss
 
 Sensible CSS Image Captions
