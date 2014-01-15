@@ -4,7 +4,7 @@
   "authors": [
     "jbranchaud <jbranchaud@gmail.com>"
   ],
-  "description": "Pure-CSS Image Caption Library",
+  "description": "Sensible CSS Image Captions",
   "main": "captionss.css",
   "license": "MIT",
   "homepage": "http://captionss.com",
