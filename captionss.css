@@ -132,7 +132,7 @@ figure.hide:hover figcaption {
 }
 /* hide-smooth */
 figure.hide-smooth figcaption {
-	display: 1;
+	opacity: 1;
 	-webkit-transition: opacity .5s;
 	-moz-transition: opacity .5s;
 	-o-transition: opacity .5s;
