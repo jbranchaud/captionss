@@ -52,7 +52,7 @@ figure.embed figcaption {
 	position: absolute;
 	bottom: 0px;
 	/* theme: neutral */
-	background: rgba(200,200,200,0.7);
+	background: rgba(200,200,200,0.825);
 }
 
 /*** Embed-Top ***/
@@ -65,7 +65,7 @@ figure.embed-top figcaption {
 	position: absolute;
 	top: 0px;
 	/* theme: neutral */
-	background: rgba(200,200,200,0.7);
+	background: rgba(200,200,200,0.825);
 }
 
 /*** Overlay ***/
@@ -80,7 +80,7 @@ figure.overlay figcaption {
 	position: absolute;
 	top: 0px;
 	/* theme: neutral */
-	background: rgba(200,200,200,0.7);
+	background: rgba(200,200,200,0.825);
 	/* effect: hide by default */
 	opacity: 0;
 }
@@ -93,7 +93,7 @@ figure.overlay:hover figcaption {
 /* neutral theme: gray with black text */
 figure figcaption {
 	color: rgba(50,50,50,1.0);
-	background: rgba(200,200,200,0.7);
+	background: rgba(200,200,200,0.825);
 }
 /* light theme: white with gray text */
 figure.light figcaption {
