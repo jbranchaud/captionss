@@ -45,9 +45,6 @@ figure.overlay * {
 /* Font-size: normal (default) */
 /* Theme: neutral (default) */
 
-figure.embed {
-	/* do nothing here */
-}
 figure.embed figcaption {
 	/* positioning: bottom */
 	position: absolute;
@@ -56,9 +53,6 @@ figure.embed figcaption {
 
 /*** Embed-Top ***/
 
-figure.embed-top {
-	/* do nothing here */
-}
 figure.embed-top figcaption {
 	/* positioning: top */
 	position: absolute;
