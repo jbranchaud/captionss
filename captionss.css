@@ -27,6 +27,7 @@ figure.embed-top figcaption,
 figure.overlay figcaption {
 	width: 100%;
 	padding: 0.5em;
+	background: rgba(200,200,200,0.825);
 }
 
 /* use border-box box-sizing for each type of caption */
@@ -44,28 +45,18 @@ figure.overlay * {
 /* Font-size: normal (default) */
 /* Theme: neutral (default) */
 
-figure.embed {
-	/* do nothing here */
-}
 figure.embed figcaption {
 	/* positioning: bottom */
 	position: absolute;
 	bottom: 0px;
-	/* theme: neutral */
-	background: rgba(200,200,200,0.825);
 }
 
 /*** Embed-Top ***/
 
-figure.embed-top {
-	/* do nothing here */
-}
 figure.embed-top figcaption {
 	/* positioning: top */
 	position: absolute;
 	top: 0px;
-	/* theme: neutral */
-	background: rgba(200,200,200,0.825);
 }
 
 /*** Overlay ***/
@@ -79,8 +70,6 @@ figure.overlay figcaption {
 	height: 100%;
 	position: absolute;
 	top: 0px;
-	/* theme: neutral */
-	background: rgba(200,200,200,0.825);
 	/* effect: hide by default */
 	opacity: 0;
 }
@@ -91,10 +80,13 @@ figure.overlay:hover figcaption {
 
 /*** Themes ***/
 /* neutral theme: gray with black text */
-figure figcaption {
-	color: rgba(50,50,50,1.0);
-	background: rgba(200,200,200,0.825);
+/* It is embedded in above rules, but here for reference: */
+/*
+figure.neutral figcaption {
+    color: rgba(50,50,50,1.0);
+    background: rgba(200,200,200,0.825);
 }
+*/
 /* light theme: white with gray text */
 figure.light figcaption {
 	color: rgba(80,80,80,1.0);
@@ -107,10 +99,12 @@ figure.dark figcaption {
 }
 
 /*** Font Sizes ***/
-/* normal (small) */
-figure {
+/* normal (small), embedded in above rules */
+/*
+figure.normal {
 	font-size: 0.8em;
 }
+*/
 /* medium */
 figure.medium {
 	font-size: 1.0em;
