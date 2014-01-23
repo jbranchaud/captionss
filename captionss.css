@@ -88,7 +88,7 @@ figure.neutral figcaption {
 /* light theme: white with gray text */
 figure.light figcaption {
 	color: rgba(80,80,80,1.0);
-	background: rgba(245,245,245,0.7);
+	background: rgba(245,245,245,0.825);
 }
 /* dark theme: black with white text */
 figure.dark figcaption {
