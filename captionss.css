@@ -11,7 +11,6 @@ figure.overlay {
 	vertical-align: top;
 	position: relative;
 	margin: 0em;
-	color: rgba(50,50,50,1.0);
 	font-size: 0.8em;
 	background: white;
 	overflow: hidden;
@@ -27,6 +26,8 @@ figure.embed-top figcaption,
 figure.overlay figcaption {
 	width: 100%;
 	padding: 0.5em;
+    /* neutral theme */
+	color: rgba(50,50,50,1.0);
 	background: rgba(200,200,200,0.825);
 }
 
