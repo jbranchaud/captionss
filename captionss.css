@@ -1,5 +1,5 @@
 /* 
- * CaptionSS 1.0.0
+ * CaptionSS 1.0.1
  * a pure-CSS image caption library
  */
 
@@ -11,7 +11,6 @@ figure.overlay {
 	vertical-align: top;
 	position: relative;
 	margin: 0em;
-	color: rgba(50,50,50,1.0);
 	font-size: 0.8em;
 	background: white;
 	overflow: hidden;
@@ -27,6 +26,8 @@ figure.embed-top figcaption,
 figure.overlay figcaption {
 	width: 100%;
 	padding: 0.5em;
+    /* neutral theme */
+	color: rgba(50,50,50,1.0);
 	background: rgba(200,200,200,0.825);
 }
 
@@ -61,9 +62,6 @@ figure.embed-top figcaption {
 
 /*** Overlay ***/
 
-figure.overlay {
-
-}
 figure.overlay figcaption {
 	/* positioning: over */
 	width: 100%;
@@ -90,7 +88,7 @@ figure.neutral figcaption {
 /* light theme: white with gray text */
 figure.light figcaption {
 	color: rgba(80,80,80,1.0);
-	background: rgba(245,245,245,0.7);
+	background: rgba(245,245,245,0.825);
 }
 /* dark theme: black with white text */
 figure.dark figcaption {
