@@ -6,7 +6,8 @@
 /*** Base Caption Styles ***/
 figure.embed,
 figure.embed-top,
-figure.overlay {
+figure.overlay,
+figure.embed-over {
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
@@ -17,13 +18,15 @@ figure.overlay {
 }
 figure.embed img,
 figure.embed-top img,
-figure.overlay img {
+figure.overlay img,
+figure.embed-over img {
 	width: 100%;
 	display: block;
 }
 figure.embed figcaption,
 figure.embed-top figcaption,
-figure.overlay figcaption {
+figure.overlay figcaption,
+figure.embed-over figcaption {
 	width: 100%;
 	padding: 0.5em;
     /* neutral theme */
@@ -34,7 +37,8 @@ figure.overlay figcaption {
 /* use border-box box-sizing for each type of caption */
 figure.embed *,
 figure.embed-top *,
-figure.overlay * {
+figure.overlay *,
+figure.embed-over * {
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -62,7 +66,8 @@ figure.embed-top figcaption {
 
 /*** Overlay ***/
 
-figure.overlay figcaption {
+figure.overlay figcaption,
+figure.embed-over figcaption {
 	/* positioning: over */
 	width: 100%;
 	height: 100%;
@@ -71,7 +76,8 @@ figure.overlay figcaption {
 	/* effect: hide by default */
 	opacity: 0;
 }
-figure.overlay:hover figcaption {
+figure.overlay:hover figcaption,
+figure.embed-over:hover figcaption {
 	/* effect: show */
 	opacity: 1;
 }
