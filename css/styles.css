@@ -62,6 +62,8 @@ span.title-rest {
 }
 #intro-images div p.description {
     padding: 3px;
+    margin: 0.5em 0;
+    color: #AAA;
 }
 
 section h3 {
