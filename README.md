@@ -9,7 +9,7 @@ See all the details at [captionss.com](http://captionss.com).
 - Uses nothing more than CSS3 and HTML5, no JavaScript needed.
 - No need to specify image sizes ahead of time, even works with dynamically
   sized images.
-- Lots of caption styles can be achieved with the simplet set of options.
+- Lots of caption styles can be achieved with the simple set of options.
 
 ## Usage
 
