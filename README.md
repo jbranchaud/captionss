@@ -6,13 +6,10 @@ See all the details at [captionss.com](http://captionss.com).
 
 ## Why captionss?
 
-- While most existing solutions require JavaScript, captionss accomplishes this
-  with a clean combination of CSS3 and HTML5.
-- While most existing CSS solutions require a predefined image size to be
-  hard-coded into the CSS, captionss automatically fits to any image and
-  even adapts to images that are programmatically resized.
-- captionss has a robust set of options and still remains simple to
-  incorporate into a site.
+- Uses nothing more than CSS3 and HTML5, no JavaScript needed.
+- No need to specify image sizes ahead of time, even works with dynamically
+  sized images.
+- Lots of caption styles can be achieved with the simplet set of options.
 
 ## Usage
 
