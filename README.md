@@ -31,6 +31,7 @@ If you do happen to submit a pull request, I won't hold it against you.
 * 1.0.0
 * 1.0.1
 * 1.0.2
+* 1.1.0
 
 ## License
 
