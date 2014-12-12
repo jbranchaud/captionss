@@ -30,4 +30,4 @@ If you do happen to submit a pull request, I won't hold it against you.
 
 &copy; 2014 [Josh Branchaud](http://joshbranchaud.com)
 
-And obviously, licensed under the MIT license (see LICENSE for details).
+And obviously, licensed under the MIT license (see `LICENSE` for details).
