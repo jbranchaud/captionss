@@ -26,13 +26,6 @@ to kick off a discussion about your potential contribution.
 
 If you do happen to submit a pull request, I won't hold it against you.
 
-## Changelog
-
-* 1.0.0
-* 1.0.1
-* 1.0.2
-* 1.1.0
-
 ## License
 
 &copy; 2014 [Josh Branchaud](http://joshbranchaud.com)
