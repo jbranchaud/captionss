@@ -4,6 +4,8 @@ Sensible CSS Image Captions
 
 See all the details at [captionss.com](http://captionss.com).
 
+![captionss example gif](img/captionss-example.gif)
+
 ## Why captionss?
 
 - Uses nothing more than CSS3 and HTML5, no JavaScript needed.
