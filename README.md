@@ -2,6 +2,8 @@
 
 Sensible CSS Image Captions
 
+![captionss example gif](img/captionss-example.gif)
+
 See all the details at [captionss.com](http://captionss.com).
 
 ## Why captionss?
