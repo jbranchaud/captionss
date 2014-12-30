@@ -13,6 +13,10 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "index.html",
+    "examples.html",
+    "img",
+    "CONTRIBUTING.md"
   ]
 }
