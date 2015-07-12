@@ -34,6 +34,22 @@ figure.embed-over figcaption {
 	color: rgba(50,50,50,1.0);
 	background: rgba(200,200,200,0.825);
 }
+figure.embed figcaption a,
+figure.embed-top figcaption a,
+figure.overlay figcaption a,
+figure.embed-over figcaption a {
+    /* neutral theme */
+	color: rgba(50,50,50,1.0);
+	text-decoration: underline;
+	border-bottom: none;
+}
+figure.embed figcaption a:hover,
+figure.embed-top figcaption a:hover,
+figure.overlay figcaption a:hover,
+figure.embed-over figcaption a:hover {
+    /* neutral theme */
+	color: rgba(50,50,50,0.85);
+}
 
 /* use border-box box-sizing for each type of caption */
 figure.embed *,
@@ -101,6 +117,22 @@ figure.light figcaption {
 	color: rgba(80,80,80,1.0);
 	background: rgba(245,245,245,0.825);
 }
+figure.embed.light figcaption a,
+figure.embed-top.light figcaption a,
+figure.overlay.light figcaption a,
+figure.embed-over.light figcaption a,
+figure.light figcaption a {
+	color: rgba(80,80,80,1.0);
+	text-decoration: underline;
+	border-bottom: none;
+}
+figure.embed.light figcaption a:hover,
+figure.embed-top.light figcaption a:hover,
+figure.overlay.light figcaption a:hover,
+figure.embed-over.light figcaption a:hover,
+figure.light figcaption a:hover {
+	color: rgba(80,80,80,0.85);
+}
 /* dark theme: black with white text */
 figure.embed.dark figcaption,
 figure.embed-top.dark figcaption,
@@ -109,6 +141,22 @@ figure.embed-over.dark figcaption,
 figure.dark figcaption {
 	color: rgba(245,245,245,1.0);
 	background: rgba(50,50,50,0.7);
+}
+figure.embed.dark figcaption a,
+figure.embed-top.dark figcaption a,
+figure.overlay.dark figcaption a,
+figure.embed-over.dark figcaption a,
+figure.dark figcaption a {
+	color: rgba(245,245,245,1.0);
+	text-decoration: underline;
+	border-bottom: none;
+}
+figure.embed.dark figcaption a:hover,
+figure.embed-top.dark figcaption a:hover,
+figure.overlay.dark figcaption a:hover,
+figure.embed-over.dark figcaption a:hover,
+figure.dark figcaption a:hover {
+	color: rgba(245,245,245,0.85);
 }
 
 /*** Font Sizes ***/
